@@ -136,7 +136,13 @@ const Navbar = () => {
               <Menu as="div" className="relative text-left">
                 <div className="flex">
                   <Menu.Button>
-                    <BsThreeDotsVertical size={20} />
+                    <Image
+                      src={session.user.image}
+                      alt=""
+                      width={45}
+                      height={45}
+                      className="rounded-full"
+                    />
                   </Menu.Button>
                 </div>
 
@@ -166,9 +172,11 @@ const Navbar = () => {
                           </Link>
                         )}
                       </Menu.Item>
+
                       <Menu.Item>
                         {({ active }) => (
-                          <a
+                          <p
+                            onClick={() => signOut()}
                             href="#"
                             className={classNames(
                               active
@@ -177,23 +185,8 @@ const Navbar = () => {
                               "block px-4 py-2 text-sm"
                             )}
                           >
-                            Support
-                          </a>
-                        )}
-                      </Menu.Item>
-                      <Menu.Item>
-                        {({ active }) => (
-                          <a
-                            href="#"
-                            className={classNames(
-                              active
-                                ? "bg-gray-500 text-gray-100"
-                                : "text-gray-200",
-                              "block px-4 py-2 text-sm"
-                            )}
-                          >
-                            License
-                          </a>
+                            Logout
+                          </p>
                         )}
                       </Menu.Item>
                     </div>
