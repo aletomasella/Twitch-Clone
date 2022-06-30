@@ -1,4 +1,4 @@
-import { Main } from "./Main";
+import Main from "./Main";
 import React from "react";
 import SideMenu from "./SideMenu";
 
