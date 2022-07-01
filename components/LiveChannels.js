@@ -28,42 +28,42 @@ const LiveChannels = () => {
             profile_img="https://static-cdn.jtvnw.net/jtv_user_pictures/4c0adb78-f81c-4dd3-bca7-61146eb163b9-profile_image-70x70.png"
             title="CHARITY STREAM! Any support is ap..."
             user="Natt"
-            game="Valorant"
+            game="Call of Duty: Warzone"
           />
           <LiveChannelItem
             img={live2}
             profile_img="https://static-cdn.jtvnw.net/jtv_user_pictures/5d92c6c6-69f6-4d4e-8fc3-aeb9da5e6260-profile_image-50x50.png"
             title="Deployable shield commin in clutch"
             user="50ZINT"
-            game="Call of Duty: Warzone"
+            game="Valorant"
           />
           <LiveChannelItem
             img={live3}
             profile_img="https://static-cdn.jtvnw.net/jtv_user_pictures/26fac640-e78a-49f4-8ab2-8d12b92574c6-profile_image-50x50.png"
             title="VALORANT WITH NIJI AND FRIENDS!..."
             user="baoo"
-            game="Valorant"
+            game="League of Legends"
           />
           <LiveChannelItem
             img={live4}
             profile_img="https://static-cdn.jtvnw.net/jtv_user_pictures/jerma985-profile_image-447425e773e6fd5c-50x50.jpeg"
             title="Local Streamer stuck in a cave: sings..."
             user="Jerma985"
-            game="One Hand Clapping"
+            game="Just Chatting"
           />
           <LiveChannelItem
             img={live5}
             profile_img="https://static-cdn.jtvnw.net/jtv_user_pictures/bed3ea39-265b-4632-b866-598bb8c045dd-profile_image-50x50.png"
             title="BIG Mario Kart session"
             user="Bigpuffer"
-            game="Mario Kart 8 Deluxe"
+            game="Just Chatting"
           />
           <LiveChannelItem
             img={live6}
             profile_img="https://static-cdn.jtvnw.net/jtv_user_pictures/b3c347ed-1a7a-40a2-8bee-8a7c4426eb33-profile_image-50x50.png"
             title="Tripod Man Gains RP | Code: MFAM | @..."
             user="NICKMERCS"
-            game="Apex Legends"
+            game="League of Legends"
           />
           <LiveChannelItem
             img={live7}
@@ -77,7 +77,7 @@ const LiveChannels = () => {
             profile_img="https://static-cdn.jtvnw.net/jtv_user_pictures/b3fc1f16-0818-4121-8711-c31b9469bc21-profile_image-50x50.png"
             title="Covert_Muffin teaching Star Wars..."
             user="JamesDoneQuick"
-            game="Star Wars: Jedi Knight II - Jedi Outcast"
+            game="Escape from Tarkov"
           />
           <LiveChannelItem
             img={live9}
