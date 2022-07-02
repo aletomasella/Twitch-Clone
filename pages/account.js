@@ -8,7 +8,7 @@ export default function account() {
   if (session) {
     return (
       <>
-        <div className="pt-[100px] flex flex-col max-w-[400px] w-full p-4">
+        <div className="pt-[100px] flex flex-col max-w-[400px] w-full m-auto p-4">
           <h2 className="text-2xl font-bold">Welcome {session.user.name}</h2>
           <p className="p-4">Signed in as {session.user.email}</p>
           <div className="pb-4 m-auto">
@@ -35,13 +35,13 @@ export default function account() {
       <div className="pt-[100px] flex flex-col max-w-[400px] w-full m-auto p-4">
         <h2 className="text-3xl font-bold">Login</h2>
         <p className="p-4">Choose the account you want to sign in with</p>
-        <button
+        {/* <button
           onClick={() => signIn()}
           className="flex items-center justify-center p-3 bg-gray-600 border-gray-600 my-2"
         >
           <FaGithub className="2 mx-2" /> Sign in with{" "}
           <span className="font-bold pl-1">GitHub</span>{" "}
-        </button>
+        </button> */}
         <button
           onClick={() => signIn()}
           className="flex items-center justify-center p-3 bg-blue-600 border-blue-600 my-2"
